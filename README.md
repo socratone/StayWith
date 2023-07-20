@@ -29,3 +29,7 @@ https://docs.expo.dev/build-reference/apk/
 #### IOS
 
 https://docs.expo.dev/build-reference/simulators/
+
+## Etc References
+
+- [Safe Area Context](https://docs.expo.dev/versions/latest/sdk/safe-area-context/)

@@ -11,7 +11,9 @@ const Web = () => {
       <StatusBar style="auto" />
       <WebView
         style={styles.container}
-        source={{ uri: "https://staywith.kr" }}
+        source={{
+          uri: __DEV__ ? "http://192.168.200.131:3000/" : "https://staywith.kr",
+        }}
       />
     </View>
   );
