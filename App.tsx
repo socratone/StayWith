@@ -1,21 +1,10 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
-import WebView from "react-native-webview";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import Web from "./components/Web";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <WebView
-        style={styles.container}
-        source={{ uri: "https://staywith.kr" }}
-      />
-    </View>
+    <SafeAreaProvider>
+      <Web />
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});

@@ -1,5 +1,7 @@
 # 머무름
 
+기도하며 머무는 앱
+
 ## Install Process
 
 [Use TypeScript](https://docs.expo.dev/guides/typescript/)
@@ -16,10 +18,14 @@ https://docs.expo.dev/build/setup/#build-for-app-stores
 
 ### 테스트 빌드
 
-#### 안드로이드
+#### Android
 
 eas.json에 있는 build.preview 옵션에 따라 expo에 build
 
 `eas build -p android --profile preview` 또는 `yarn build:preview`
 
 https://docs.expo.dev/build-reference/apk/
+
+#### IOS
+
+https://docs.expo.dev/build-reference/simulators/
