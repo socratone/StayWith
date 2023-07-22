@@ -12,7 +12,7 @@ const Web = () => {
       <WebView
         style={styles.container}
         source={{
-          uri: __DEV__ ? "http://192.168.200.131:3000/" : "https://staywith.kr",
+          uri: process.env.BASE_URL ?? "",
         }}
       />
     </View>
